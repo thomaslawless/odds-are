@@ -13,8 +13,8 @@ const Home = () => {
       {!session ? (
         <Auth supabaseClient={supabase} appearance={{ theme: ThemeSupa }} theme="dark" />
       ) : (
-        <Feed />
-       // <Account session={session} />   
+        
+        <Account session={session} />   
        
          )}
     </div>
