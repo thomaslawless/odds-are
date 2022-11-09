@@ -1,11 +1,11 @@
-import React from 'react'
+import Link from "next/link"
 
-export default function Card() {
+const Card = ({ group }) => {
   return (
     <div className="card w-96 bg-primary text-primary-content">
     <div className="card-body">
-      <h2 className="card-title">Group Title</h2>
-      <p>group description</p>
+      <h2 className="card-title">{group.name}</h2>
+      <p>{group.description}</p>
       <div className="card-actions justify-end">
         <button className="btn">Join</button>
       </div>
@@ -13,4 +13,4 @@ export default function Card() {
   </div>
   )
 }
-
+export default Card
