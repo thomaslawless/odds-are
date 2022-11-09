@@ -27,19 +27,27 @@ export default function groups() {
   }, [])
 
   return (
-  <div className="grid gap-4 grid-cols-3 grid-rows-3">
-    <div className='groups'>
+  <div className='card'>
+  <div className="container mx-auto">
+    <div className="md:container md:mx-auto">
       {fetchError && (<p>{fetchError}</p>)}
       {groups && (
+        <div className='container mx-auto'>
         <div className='groups'>
 
           {groups.map(group => (
+            <div className="container mx-auto">
+              <div className='columns-auto'>
             <Card key={group.id} group={group}/>
+            </div>
+            </div>
           ))}
+          </div>
           </div>
       )}
     </div>
     </div>
-
+    </div>
   )
 }
+
