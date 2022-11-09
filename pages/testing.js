@@ -3,13 +3,16 @@ import Card from '../components/Card'
 
 export default function testing() {
   return (
-    <div className="md:container md:mx-auto px-10">
-      <div class="gap-8 columns-4 ...">
-      <h1>Title 1</h1>
-      <h1>Title 2</h1>
-      <h1>Title 3</h1>
-      <h1>Title 4</h1>
-      </div>
-      </div>
+    <div className='fixed top-0 h-screen w-16
+    flex flex-col
+    bg-gray-900
+    text-white
+    shadow'>
+      <i>A</i>
+      <i>B</i>
+      <i>C</i>
+      <i>D</i>
+      <i>E</i>
+    </div>
   )
 }
