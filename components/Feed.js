@@ -1,9 +1,18 @@
 import React from 'react'
+import Card from './Card'
 
 export default function Feed() {
   return (
-    <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <div class="container mx- px-4">
+      <Card />
+      <br></br>
+      <Card />
+      <br></br>
+      <Card />
+      <br></br>
+      <Card />
+      <br></br>
+      <Card />
+    </div>
   )
 }
