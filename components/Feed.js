@@ -3,7 +3,7 @@ import Card from './Card'
 
 export default function Feed() {
   return (
-    <div class="container mx- px-4">
+    <div className="container mx- px-4">
       <Card />
       <br></br>
       <Card />

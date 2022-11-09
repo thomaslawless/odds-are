@@ -3,7 +3,7 @@ import Feed from '../components/Feed'
 
 export default function groups() {
   return (
-    <div class="container mx-auto px-4 py-8">
+    <div className="container mx-auto py-4 self-center">
     <Feed />
     </div>
   )
