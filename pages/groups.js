@@ -26,27 +26,25 @@ export default function groups() {
     fetchGroups()
   }, [])
 
+
   return (
-  <div className='card'>
-  <div className="container mx-auto">
-    <div className="md:container md:mx-auto">
+    <div>
       {fetchError && (<p>{fetchError}</p>)}
       {groups && (
-        <div className='container mx-auto'>
-        <div className='groups'>
-
+         <div className='min-h-screen flex items-center'>
+          <div className='flex-1 max-w-4xl mx-auto p-10'>
           {groups.map(group => (
-            <div className="container mx-auto">
-              <div className='columns-auto'>
-            <Card key={group.id} group={group}/>
-            </div>
-            </div>
+            <ul className='grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 md:gap-8'>
+              <ul className='grid-cols-3'>
+                <li className='py-4'>
+                  <Card key={group.id} group={group}/>
+                </li>
+            </ul>
+            </ul>
           ))}
           </div>
           </div>
       )}
-    </div>
-    </div>
     </div>
   )
 }

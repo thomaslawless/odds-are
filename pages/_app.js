@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
       supabaseClient={supabaseClient}
       initialSession={pageProps.initialSession}
     >
-     {/* <Daisy></Daisy> */}
+      <Daisy></Daisy>
       <Component {...pageProps} />
     </SessionContextProvider>
   )
