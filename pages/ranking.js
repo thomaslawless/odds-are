@@ -4,7 +4,7 @@ import Avatar from '../components/Avatar'
 
 export default function Ranking() {
   return (
-    <div class="container mx-auto">
+    <div className="container mx-auto">
         <br></br>
         <RankTable/>
     </div>
