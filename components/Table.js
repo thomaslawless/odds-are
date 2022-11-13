@@ -13,7 +13,8 @@ export default function Table() {
           </th>
           <th>Name</th>
           <th>Bet</th>
-          <th>Odds</th>
+          <th>Over</th>
+          <th>Under</th>
           <th></th>
         </tr>
       </thead>
@@ -41,9 +42,10 @@ export default function Table() {
             Modica will smoke 5 Cigs.
             <br/>
           </td>
-          <td>+200</td>
+          <td><button className="btn btn-success">+100</button></td>
           <th>
-            <button className="btn btn-ghost btn-xs">details</button>
+            
+          <button className="btn btn-warning">-250</button>
           </th>
         </tr>
         <tr>
@@ -69,9 +71,9 @@ export default function Table() {
             Tom will spend $100
             <br/>
           </td>
-          <td>-150</td>
+          <td><button className="btn btn-success">+100</button></td>
           <th>
-            <button className="btn btn-ghost btn-xs">details</button>
+          <button className="btn btn-warning">-250</button>
           </th>
         </tr>
         <tr>
@@ -97,9 +99,9 @@ export default function Table() {
             Modica will smoke 5 Cigs.
             <br/>
           </td>
-          <td>-200</td>
+          <td><button className="btn btn-success">+100</button></td>
           <th>
-            <button className="btn btn-ghost btn-xs">details</button>
+          <button className="btn btn-warning">-250</button>
           </th>
         </tr>
         <tr>
@@ -125,9 +127,9 @@ export default function Table() {
            Modica will smoke 5 cigs.
             <br/>
           </td>
-          <td>+200</td>
+          <td><button className="btn btn-success">+100</button></td>
           <th>
-            <button className="btn btn-ghost btn-xs">details</button>
+          <button className="btn btn-warning">-250</button>
           </th>
         </tr>
         <tr>
@@ -153,9 +155,9 @@ export default function Table() {
            Modica will smoke 5 cigs.
             <br/>
           </td>
-          <td>+200</td>
+          <td><button className="btn btn-success">+100</button></td>
           <th>
-            <button className="btn btn-ghost btn-xs">details</button>
+          <button className="btn btn-warning">-250</button>
           </th>
         </tr>
       </tbody>
